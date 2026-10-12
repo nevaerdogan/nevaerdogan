@@ -6,3 +6,7 @@ venv/
 
 # raw + prepped photos stay local; only the generated SVG is needed on GitHub
 source-*.png
+
+# local preview page + app launch config
+preview.html
+.claude/
