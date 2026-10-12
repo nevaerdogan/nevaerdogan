@@ -93,12 +93,9 @@ End-to-end RFM customer segmentation pipeline: preprocessing, metric calculation
 
 <h3><code>neva@github ~ $ ./links.sh</code></h3>
 
-<!-- Fill in your own URLs below and remove the comment markers.
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nevaerdogan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
-[![Portfolio](https://img.shields.io/badge/Portfolio-your--site.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://your-site.com)
--->
-
-[![GitHub](https://img.shields.io/badge/GitHub-nevaerdogan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nevaerdogan)
+[![Portfolio](https://img.shields.io/badge/Portfolio-nevaerdogan.com-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nevaerdogan.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nevaerdogan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nevaerdogan)
+[![Medium](https://img.shields.io/badge/Medium-%40nevardogan-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nevardogan)
 [![FootworkCoach](https://img.shields.io/badge/⚡_FootworkCoach-footworkcoach.pages.dev-22d3ee?style=for-the-badge&logo=cloudflarepages&logoColor=black)](https://footworkcoach.pages.dev)
 [![TRNewsSummarizer](https://img.shields.io/badge/TRNewsSummarizer-streamlit.app-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://trnewssummarizer.streamlit.app/)
 
