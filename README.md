@@ -32,7 +32,7 @@
 <p><b>Computer Engineer · Computer Vision · NLP · Data Science</b></p>
 
 <p>I build things that see, listen and read: camera-driven trainers, gesture instruments,<br>
-Turkish-language NLP benchmarks and customer analytics pipelines.</p>
+NLP benchmarks, customer analytics pipelines... and many more!</p>
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -96,8 +96,6 @@ End-to-end RFM customer segmentation pipeline: preprocessing, metric calculation
 [![Portfolio](https://img.shields.io/badge/Portfolio-nevaerdogan.com-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nevaerdogan.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nevaerdogan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nevaerdogan)
 [![Medium](https://img.shields.io/badge/Medium-%40nevardogan-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nevardogan)
-[![FootworkCoach](https://img.shields.io/badge/⚡_FootworkCoach-footworkcoach.pages.dev-22d3ee?style=for-the-badge&logo=cloudflarepages&logoColor=black)](https://footworkcoach.pages.dev)
-[![TRNewsSummarizer](https://img.shields.io/badge/TRNewsSummarizer-streamlit.app-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://trnewssummarizer.streamlit.app/)
 
 <br>
 
