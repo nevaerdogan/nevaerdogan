@@ -1,0 +1,44 @@
+name: Update profile art
+
+# Refreshes the contribution heatmap SVG from real data.
+# Runs daily, on every push to main, and on demand (Actions tab -> Run workflow).
+
+"on":
+  schedule:
+    - cron: "17 6 * * *"   # ~06:17 UTC every day (09:17 Türkiye)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Scrape real contribution data (public endpoint, no token)
+        run: python scripts/fetch_contributions.py
+
+      - name: Render animated contribution heatmap
+        run: python scripts/render_heatmap_svg.py
+
+      # Commits as the repo owner (not a bot), so nobody else shows up as a
+      # contributor. The [skip ci] tag stops the push from re-triggering this job.
+      - name: Commit updated art
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          commit_user_name: nevaerdogan
+          commit_user_email: 175441679+nevaerdogan@users.noreply.github.com
+          commit_author: nevaerdogan <175441679+nevaerdogan@users.noreply.github.com>

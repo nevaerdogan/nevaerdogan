@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# raw + prepped photos stay local; only the generated SVG is needed on GitHub
+source-*.png
